@@ -92,7 +92,7 @@ def main():
 		print("*************** put file ***************")
 		print("*************** quit ***************")
 		
-		data = input("输入命令: ")
+		data = input("Please input command: ")
 		if  data[:4] == "list":
 			ftp.do_list()
 
